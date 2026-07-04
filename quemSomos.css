@@ -1,0 +1,266 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding-bottom: 0;
+    padding-top:0;
+    border: 0;
+    color:white ;
+    font-family: "Oswald", sans-serif;
+}
+
+/*Container do menu*/
+.cabecario{
+    display: grid;
+    grid-template-columns: repeat(2,33.2vh) 38vh repeat(3, 22vh) ;
+    background-color: #1E404F;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left:5vh;
+    
+    height: fit-content;
+/*Tira os links do cabeçario*/
+a{
+    text-decoration: none;
+}
+}
+
+/*Barra de pesquisa*/
+input{
+    grid-column-start:0;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width:100%;
+    height:25%;
+    border-radius:50px;
+    background-color: #528196;
+    
+    /*Imagem da lupa*/
+    background-image: url('img/search.png');
+    background-repeat: no-repeat;
+    background-position:right center;
+    background-size: 35px;
+}
+
+/*Logo dentro do menu|Fica no centro*/
+#logo{
+    width:80%;
+    height: 80%;
+    padding-left: 3vh;
+    padding-right: 0;
+}
+
+/*Imagem do carrinho e icon do login*/
+#icon{
+    width:250px;
+    height: 130px;
+    padding: 0%;
+    border: 0;
+}
+
+/*Tamanho das fontes do menu*/
+#lblmenu{
+    font-size: 20px;
+}
+
+
+/*Conteúdo da pag*/
+
+.banner{
+    width:197.8vh;
+    height:70vh;
+}
+
+.oQueFazemos{
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    justify-items: center;
+    background-color:#34685C;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-top: -4px;
+
+    #texto{
+        width:50%;
+        padding-top:20px;
+        #titulo{
+            font-size:55px;
+            margin-bottom:25px;
+        }
+        p{
+            text-align: center;
+            font-size:25px;
+        }
+    }
+}
+
+.nossoTime{
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    justify-items: center;
+    background-color:#1E404F;
+    padding-top:5%;
+    padding-bottom:5%;
+    
+    #desc{
+        width:50%;
+        padding-top:20px;
+        #titulo{
+            font-size:55px;
+            margin-bottom:25px;
+        }
+        p{
+            text-align: center;
+            font-size:25px;
+        }
+    }
+}
+
+.local{
+    display:grid;
+    grid-template-columns:  1fr 1fr;
+    justify-items: center;
+    background-color:#34685C;
+    padding-top:5%;
+    padding-bottom:5%;
+    
+    #texto{
+        width:50%;
+        padding-top:20px;
+        #titulo{
+            font-size:55px;
+            margin-bottom:25px;
+        }
+        p{
+            text-align: center;
+            font-size:25px;
+        }
+        #iconLocal{
+            width:2vw;
+            height:5vh;
+            padding-top:9px;
+        }
+    }
+}
+
+
+
+
+/*--------------------*/
+
+/*Texto + delimitações + botão*/
+.newsletter{
+    background-color:#659F92;
+    height:15vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: end;
+    z-index:-1;
+    .texto{
+
+    #chamativo{
+        font-size:40px;
+    }
+    #seInscreva{
+        font-size:30px;
+    }
+    }
+
+    a{
+        background-color: #34685C;
+        border-radius:50px;
+        width:30%;
+        text-align: center;
+        padding-top:1%;
+        text-decoration: none;
+        height: 80px;
+        font-size: 40px;
+        margin:20px;
+    }
+}
+
+/*Delimitação entre o newsletter e o rodapé, imagem personalizada*/
+.meioAmeio{
+    width:100%;
+    object-fit:cover;
+    padding: 0%;
+    border:0;
+}
+
+/*Rodapé|3 colunas com grid*/
+.rodape{
+    width:100%;
+    height:fit-content;
+    background-color: #0B151A;
+    padding-top:5%;
+    padding-bottom:5%;
+    margin-top: -4px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    justify-content: center;
+    
+    .coluna1{
+        justify-self: center;
+
+        ul{
+            list-style:none;
+
+            #titulo{
+                font-size:42px;
+                font-weight: 500;
+                letter-spacing:10px;
+            }
+
+            li{
+                font-size: 20px;
+                letter-spacing:5px;
+                padding-top:5px;
+                padding-bottom:3px;
+            }
+        }
+    }
+
+    .coluna2{
+        justify-self: center;
+
+        ul{
+            list-style:none;
+
+            #titulo{
+                font-size:42px;
+                font-weight: 500;
+                letter-spacing:10px;
+            }
+
+            li{
+                font-size: 20px;
+                letter-spacing:5px;
+                padding-top:5px;
+                padding-bottom:3px;
+            }
+        }
+    }
+
+    .coluna3{
+
+        #containerCartoes{
+            width:45vh;
+            display: flex;
+            flex-wrap: wrap;
+
+            #american{
+                margin-left: 15%;
+            }
+        }
+    }
+
+}
+
+/*texto de copyright| Colocar junto a rodpé*/
+.copyright{
+    background-color: #0B151A;
+    width:100%;
+    color: rgb(138, 137, 137);
+}

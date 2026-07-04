@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link da fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Termina link-->
+    <link rel="stylesheet" href="grade.css">
+    <title>Grade de produtos</title>
+</head>
+<body>
+    <!--Começa cabeçario-->
+    <header class="cabecario">
+        <input type="text">
+        <a href="atendimento.html"><p id="lblmenu">Atendimento</p></a>
+        <a href="index.html"><img src="img/Oɴ ʟɪᴠᴇ.png" alt="logo mto boa" id="logo"></a>
+        <p id="lblmenu"><a href="quemSomos.html">Sobre</a></p>
+        <a href="login.html"><img id="icon" src="img/Login.png" alt="Usuario"></a>
+        <a href="carrinho.html"><img id="icon" src="img/Carrinho.png" alt="Carrinho"></a>
+    </header>
+    <!--Acaba cabeçario-->
+
+    <!--Categorias-->
+    <section class="categorias">
+        Blusa | Moletom | Feminino | Masculino
+    </section>
+    <!--Acaba categorias-->
+
+    <!--Conteudo da pag | filtro pegando 1 row do grid e produtos -->
+    <section class="conteudo">
+        <div id="filtros">
+             <p  id="criadores">Departamento   -</p>
+            <input class="pesquisa" type="text" placeholder="Digite o departamento">
+            <p id="primeiro"><input type="checkbox" name="" >Lançamentos</p>
+            <p><input type="checkbox" name="" id="">Moletom</p>
+            <p><input type="checkbox" name="" id="">Blusa</p>
+            <p  id="criadores">Criadores   -</p>
+            <input class="pesquisa" type="text" placeholder="Digite o criador">
+            <p><input type="checkbox" name="" id="">Cellbit</p>
+            <p><input type="checkbox" name="" id="">Core</p>
+            <p><input type="checkbox" name="" id="">Saiko</p>
+           <span id="spanPrimeiro">R$5,00 </span>
+           <span>R$350,00</span> 
+            <input type="range" id="range">
+        </div>
+
+       <img src="img/homemNoSol.png" alt="">
+        <img src="img/mulherNoSol.png" alt="">
+        <img src="img/homemCabecaBaixa.png" alt="">
+        <img src="img/homemDeBlusa.png" alt="">
+        <img src="img/mulherRoxa.png" alt="">
+        <img src="img/mulherMoletomLaranja.png" alt="">
+        <img src="img/mulherMoletomRosa.png" alt="">
+        <img src="img/homemMoletomBranco.png" alt="">
+        <img src="img/homemNoSol.png" alt="">
+        <img src="img/homemCabecaBaixa.png" alt="">
+        <img src="img/mulherNoSol.png" alt="">
+        <img src="img/moletomPatoDonald.png" alt="">
+        <img src="img/moletomNaCidade.png" alt="">
+
+        <button>Ver mais</button>
+
+    </section>
+    <!--Acaba produtos-->
+
+    <!--Propaganda-->
+    <img src="img/propaganda.png" alt="propaganda daora" class="propaganda">
+    <!--Acaba propaganda-->
+
+    <!--Começo do rodapé + newsletter-->
+    <section class="newsletter">
+        <div class="texto">
+          <p id="chamativo">Não perca nenhum lançamento!</p>
+          <p id="seInscreva">Se inscreva no nosso newsletter</p>
+        </div>
+        <button>Cadastre-se</button>
+    </section>
+
+    <img src="img/rodapeFinal.png" alt="" class="meioAmeio">
+
+    <footer class="rodape">
+        <div class="coluna1">
+          <ul>
+            <li id="titulo">Indice</li>
+            <a href="index.html"><li>Home</li></a>
+            <a href="atendimento.html"><li>Atendimento</li></a>
+            <a href="cadastro.html"><li>Cadastro</li></a>
+            <a href="carrinho.html"><li>Carrinho</li></a>
+            <a href="grade.html"><li>Grade de produtos</li></a>
+            <a href="login.html"><li>Login</li></a>
+            <a href="quemSomos.html"><li>Quem Somos</li></a>
+          </ul>
+       </div>
+
+       <div class="coluna2">
+        <ul>
+           <li id="titulo">Termos de Uso</li>
+          <li>Segurança</li>
+          <li>Privacidade</li>
+        </ul>
+     </div>
+
+     <div class="coluna3">
+        
+        <span id="containerRedes">
+            <img src="youtube.png" alt="">
+            <img src="instagram.png" alt="">
+            <img src="tiktok.png" alt="">
+            <img src="discord.png" alt="">
+            <img src="twitter.png" alt="">
+        </span>
+
+        <span id="containerCartoes">
+            <img src="master.png" alt="">
+            <img src="visa.png" alt="">
+            <img src="diners.png" alt="">
+            <img src="elo.png" alt="">
+            <img src="hipercard.png" alt="">
+            <img src="boleto.png" alt="">
+            <img id="american" src="americanExpress.png" alt="">
+            <img id="pix" src="pix.png" alt="">
+        </span>
+     </div>
+
+    </footer>
+
+    <p class="copyright">
+        Copyright ATELIER DO SICKO LTDA - 15802576000140 - 2023. Todos os direitos reservados.
+    </p>
+    <!--Termina o rodapé aqui-->
+</body>
+</html>
