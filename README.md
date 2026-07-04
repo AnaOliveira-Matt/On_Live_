@@ -1,6 +1,6 @@
 #  On Live
 
-<img src="OnLive_paginaInicial.png" alt="Imagem da pagina inicial">
+<img src="OnLive_paginaIncial.png" alt="Imagem da pagina inicial">
 
 
 >Site feito predominantemente com display:grid
