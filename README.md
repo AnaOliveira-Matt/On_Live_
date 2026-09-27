@@ -4,6 +4,8 @@
 
 
 >Site feito predominantemente com display:grid
+### Resumo
+Mockup de e-commerce, o produto seria peças de roupa personalizadas de criadores de conteúdo.   
 
 ### Ajustes e melhorias
 
